@@ -1,6 +1,12 @@
 #include <stdio.h>
-main(){
-	int a= 12,b=8,c=2,d=3;
-	a /= b++ -c *d;
-	printf("%d",a);  
+int main(){
+	int sum=0;
+	for(int i=1;i<=10;i++){
+	sum+=i;
+	printf("%d ",i);
+}
+	printf("%d ",sum);
+	
+	
+	
 }
